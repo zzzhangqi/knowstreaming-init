@@ -6,4 +6,4 @@ RUN apk add --no-cache \
 
 COPY init_es_index.sh /
 
-CMD ["/init_es_index.sh"]
+CMD ["/bin/bash" ,"/init_es_index.sh"]
